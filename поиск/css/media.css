@@ -1,0 +1,476 @@
+@media screen  {
+  @media (min-width:1920px){   
+  section.section__1{
+    width: 100%;
+    height: calc(100vh - 130px);
+    background: rgb(28, 66, 148);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .selectlink {			
+    position: absolute;
+    width: 500px;
+    max-width: 500px;
+    justify-content: center;
+    text-align: left;
+    display: flex;
+  }
+  .selectlink-control {
+      width: 100%;
+      position: relative;
+      padding: 10px 15px;
+      border: 1px solid #dcdfe6;
+      border-radius: 25px;
+      background: #fff;
+      outline: none;
+  }	
+  .selectlink-control:after {
+      width: 250px;
+      position: relative;
+      padding: 10px 15px;
+      border-radius: 4px;
+      background: #fff;
+      cursor: pointer;
+  }
+  .selectlink ul {
+      display: none;
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      max-width: 485px;
+      height: auto;
+      max-height: 210px;
+      position: absolute;
+      top: 100%;
+      left: 0px; 
+      border: none;
+      border-top: none;
+      z-index: 1;
+      overflow: auto;
+      user-select: none;
+  }
+  /* scroll to baraban */
+.selectlink ul::-webkit-scrollbar {
+  width: 10px;
+}
+
+.selectlink ul::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 0 0 12px 12px;
+}
+  
+  .selectlink li {
+      display: block;
+      margin: 0;
+      padding: 0;
+  }
+  .selectlink li a {
+      position: relative;
+      display: block;
+      margin: 0;
+      padding: 4px 6px 4px 15px;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 1.1;
+      cursor: pointer;
+      font-family: 'IBM Plex Sans Arabic', sans-serif;
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+  }			
+  .selectlink li a:hover {
+      background: #01003a;
+      color: rgb(255, 255, 255);
+  }
+  #myInput{
+    color: #000000;
+  }
+  
+  form.example button {
+    float: left;
+    width: 10px;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 20px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }     
+  }
+  @media (max-width:1919px){   
+    section.section__1{
+      width: 100%;
+      height: calc(100vh - 130px);
+      background: rgb(28, 66, 148);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .selectlink {			
+      position: absolute;
+      width: 500px;
+      max-width: 500px;
+      justify-content: center;
+      text-align: left;
+      display: flex;
+    }
+    .selectlink-control {
+        width: 100%;
+        position: relative;
+        padding: 10px 15px;
+        border: 1px solid #dcdfe6;
+        border-radius: 25px;
+        background: #fff;
+        outline: none;
+    }	
+    .selectlink-control:after {
+        width: 250px;
+        position: relative;
+        padding: 10px 15px;
+        border-radius: 4px;
+        background: #fff;
+        cursor: pointer;
+    }
+    .selectlink ul {
+        display: none;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        max-width: 485px;
+        height: auto;
+        max-height: 210px;
+        position: absolute;
+        top: 100%;
+        left: 0px; 
+        border: none;
+        border-top: none;
+        z-index: 1;
+        overflow: auto;
+        user-select: none;
+    }
+    /* scroll to baraban */
+  .selectlink ul::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  .selectlink ul::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 0 0 12px 12px;
+  }
+    
+    .selectlink li {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    .selectlink li a {
+        position: relative;
+        display: block;
+        margin: 0;
+        padding: 4px 6px 4px 15px;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 1.1;
+        cursor: pointer;
+        font-family: 'IBM Plex Sans Arabic', sans-serif;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }			
+    .selectlink li a:hover {
+        background: #01003a;
+        color: rgb(255, 255, 255);
+    }
+    #myInput{
+      color: #000000;
+    }
+    
+    form.example button {
+      float: left;
+      width: 10px;
+      padding: 10px;
+      background: #2196F3;
+      color: white;
+      font-size: 20px;
+      border: 1px solid grey;
+      border-left: none;
+      cursor: pointer;
+    }     
+  }
+  @media screen and (max-width:768px){    
+    section.section__1{
+      width: 100%;
+      height:  calc(100vh - 130px);
+      background: rgb(28, 66, 148);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .selectlink {			
+        position: absolute;
+        width: 312px;
+      max-width: 500px;
+      justify-content: center;
+        text-align: left;
+      display: flex;
+    }
+    .selectlink-control {
+      width: 100%;
+        position: relative;
+        padding: 10px 15px;
+        border: 1px solid #dcdfe6;
+        border-radius: 25px;
+        background: #fff;
+      outline: none;
+    }	
+    .selectlink-control:after {
+      width: 250px;
+        position: relative;
+        padding: 10px 15px;
+    
+        border-radius: 20px;
+        background: #fff;
+        cursor: pointer;
+    }
+    .selectlink ul {
+        display: none;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        max-width: 297px;
+        position: absolute;
+        top: 100%;
+        left: 0px; 
+        border: none;
+        border-top: none;
+        z-index: 1;
+        overflow: auto;
+        user-select: none;
+    }
+    
+    .selectlink li {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    .selectlink li a {
+        position: relative;
+        display: block;
+        margin: 0;
+        padding: 4px 6px 4px 15px;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 1.1;
+        cursor: pointer;
+        font-family: 'IBM Plex Sans Arabic', sans-serif;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }			
+    .selectlink li a:hover {
+        background: #000000;
+        color: rgb(255, 255, 255);
+    }
+    #myInput{
+      color: #000000;
+    }
+   
+    form.example button {
+      float: left;
+      width: 10px;
+      padding: 10px;
+      background: #2196F3;
+      color: white;
+      font-size: 20px;
+      border: 1px solid grey;
+      border-left: none;
+      cursor: pointer;
+    }
+    
+  }
+  @media screen and (max-width:425px){    
+    section.section__1{
+      width: 100%;
+      height:  calc(100vh - 130px);
+      background: rgb(28, 66, 148);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .selectlink {			
+      position: absolute;
+      width: 300px;
+      max-width: 500px;
+      justify-content: center;
+      text-align: left;
+      display: flex;
+    }
+    .selectlink-control {
+      width: 100%;
+      position: relative;
+      padding: 10px 15px;
+      border: 1px solid #dcdfe6;
+      border-radius: 25px;
+      background: #fff;
+      outline: none;
+    }	
+    .selectlink-control:after {
+      width: 250px;
+        position: relative;
+        padding: 10px 15px;
+        border-radius: 20px;
+        background: #fff;
+        cursor: pointer;
+    }
+    .selectlink ul {
+        display: none;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        max-width: 285px;
+        position: absolute;
+        top: 100%;
+        left: 0px; 
+        border: none;
+        border-top: none;
+        z-index: 1;
+        overflow: auto;
+        user-select: none;
+    }
+    .selectlink li {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    .selectlink li a {
+        position: relative;
+        display: block;
+        margin: 0;
+        padding: 4px 6px 4px 15px;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 1.1;
+        cursor: pointer;
+        font-family: 'IBM Plex Sans Arabic', sans-serif;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }			
+    .selectlink li a:hover {
+        background: #000000;
+        color: rgb(255, 255, 255);
+    }
+    #myInput{
+      color: #000000;
+    }
+    form.example button {
+      float: left;
+      width: 10px;
+      padding: 10px;
+      background: #2196F3;
+      color: white;
+      font-size: 20px;
+      border: 1px solid grey;
+      border-left: none;
+      cursor: pointer;
+    } 
+  }
+  @media screen and (max-width:375px){    
+    section.section__1{
+      width: 100%;
+      height:  calc(100vh - 130px);
+      background: rgb(28, 66, 148);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .selectlink {			
+      position: absolute;
+      width: 245px;
+      max-width: 500px;
+      justify-content: center;
+      text-align: left;
+      display: flex;
+    }
+    .selectlink-control {
+      width: 100%;
+      position: relative;
+      padding: 10px 15px;
+      border: 1px solid #dcdfe6;
+      border-radius: 25px;
+      background: #fff;
+      outline: none;
+    }	
+    .selectlink-control:after {
+      width: 250px;
+      position: relative;
+      padding: 10px 15px;     
+      border-radius: 20px;
+      background: #fff;
+      cursor: pointer;
+    }
+    .selectlink ul {
+        display: none;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        max-width: 226px;
+        position: absolute;
+        top: 100%;
+        left: 0px; 
+        border: none;
+        border-top: none;
+        z-index: 1;
+        overflow: auto;
+        user-select: none;
+    }    
+    .selectlink li {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    .selectlink li a {
+        position: relative;
+        display: block;
+        margin: 0;
+        padding: 4px 6px 4px 15px;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 1.1;
+        cursor: pointer;
+      font-family: 'IBM Plex Sans Arabic', sans-serif;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }			
+    .selectlink li a:hover {
+        background: #000000;
+        color: rgb(255, 255, 255);
+    }
+    #myInput{
+      color: #000000;
+    }
+   
+    form.example button {
+      float: left;
+      width: 10px;
+      padding: 10px;
+      background: #2196F3;
+      color: white;
+      font-size: 20px;
+      border: 1px solid grey;
+      border-left: none;
+      cursor: pointer;
+    }
+    
+  }
+}
+   
+
+
+
+
+
+     
