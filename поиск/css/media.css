@@ -13,7 +13,7 @@
   .selectlink {			
     position: absolute;
     width: 500px;
-    max-width: 500px;
+    max-width: 300px;
     justify-content: center;
     text-align: left;
     display: flex;
