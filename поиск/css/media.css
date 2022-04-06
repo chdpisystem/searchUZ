@@ -1,6 +1,8 @@
 @media screen  {
+
   @media (min-width:1920px){   
   section.section__1{
+    min-height:517px;
     width: 100%;
     height: calc(100vh - 130px);
     background: rgb(28, 66, 148);
