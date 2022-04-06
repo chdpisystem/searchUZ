@@ -2,7 +2,7 @@
 
   @media (min-width:1920px){   
   section.section__1{
-    min-height:517px;
+    min-height:513px;
     width: 100%;
     height: calc(100vh - 130px);
     background: rgb(28, 66, 148);
@@ -203,6 +203,7 @@
   }
   @media screen and (max-width:768px){    
     section.section__1{
+       min-height:513px;
       width: 100%;
       height:  calc(100vh - 130px);
       background: rgb(28, 66, 148);
@@ -381,6 +382,7 @@
   }
   @media screen and (max-width:375px){    
     section.section__1{
+      min-height:513px;
       width: 100%;
       height:  calc(100vh - 130px);
       background: rgb(28, 66, 148);
